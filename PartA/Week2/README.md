@@ -41,3 +41,7 @@ Evaluation rules:
 - `null : 'a list -> bool`
 - `hd : 'a list -> 'a`
 - `tl : 'a list -> 'a list`
+
+## Let
+
+`let b1, b2, ..., bn in e end`
