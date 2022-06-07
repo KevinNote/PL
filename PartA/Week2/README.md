@@ -24,3 +24,20 @@ Evaluation rules:
 - Tuple: fixed number of different types elements
 - List: any number of same type elements
 - Pair: 2-tuple
+
+## List
+
+- Empty list: `[]`
+- Construct: `e1::e2`
+- Null check (check is `[]`): `null e`
+- Get head (first ele of list): `hd e`, this will rise exception if `e` is `[]`
+- Get tail (rest of list): `tl e`, this will rise exception if `e` is `[]`
+
+### Type
+
+- Type: `t list`
+- `[] : 'a list`
+- `e1::e2 : (e1: t) -> (e2: t list) -> t list`
+- `null : 'a list -> bool`
+- `hd : 'a list -> 'a`
+- `tl : 'a list -> 'a list`
