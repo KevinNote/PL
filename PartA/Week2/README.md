@@ -1,3 +1,4 @@
+# Part A: Week 2
 
 ## Rule of Expression
 
@@ -17,3 +18,9 @@ Evaluation rules:
   if v1 is true, then eval e2 to value v2, and v2 is the exp's result
   otherwise, eval e3 to value v3, and v3 is the exp's result
 ```
+
+## Tuple
+
+- Tuple: fixed number of different types elements
+- List: any number of same type elements
+- Pair: 2-tuple
