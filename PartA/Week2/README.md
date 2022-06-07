@@ -55,3 +55,12 @@ Building:
 Accessing:
 - `isSome : 'a option -> bool`
 - `valOf : 'a option -> 'a`, exp if given none
+
+## Boolean
+
+- `e1 andalso e2 : e1:bool -> e2:bool -> bool`
+- `e1 orelse e2 : e1:bool -> e2:bool -> bool`
+- `not e1 : e1:bool -> bool`
+
+- `<, >, >=, <=`, `real` or `int`, not mix
+- `=, <>`, same type, no `real`
