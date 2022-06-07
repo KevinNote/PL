@@ -64,3 +64,11 @@ Accessing:
 
 - `<, >, >=, <=`, `real` or `int`, not mix
 - `=, <>`, same type, no `real`
+
+## Language
+
+- Syntax
+- Semantics
+- Idioms
+- Libraries
+- Tool
