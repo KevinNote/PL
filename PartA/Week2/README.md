@@ -45,3 +45,13 @@ Evaluation rules:
 ## Let
 
 `let b1, b2, ..., bn in e end`
+
+## Option
+
+Building:
+- `NONE`
+- `SOME`
+
+Accessing:
+- `isSome : 'a option -> bool`
+- `valOf : 'a option -> 'a`, exp if given none
